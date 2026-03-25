@@ -10,7 +10,7 @@ Lastly node3 will be the web server running Apache to run the sample website.
 
 In node1(client) we accessed the sample website and login using the following credentials and access the grades table.
 
-<li>>Username: 5012345678; Password: student</li>
+<li>Username: 5012345678; Password: student</li>
 <li>Username: s1234567; Password: student7</li>
 
 While doing this, node2 is capturing all the packets that is coming through node3(server side).
@@ -37,11 +37,11 @@ sudo hping3 --syn --data 120 -p 80 --flood ms2
 
 What it does:
 
-    <li> --syn → sends SYN packets</li>
-    <li> -p 80 → target port (HTTP)</li>
-    <li> --spoof 172.16.1.1 → fake sender (router)</li>
-    <li> --flood → send packets as fast as possible</li>
-    <li> --data 120 → adds payload (sample 120) - heavier attack </li>
+<li>--syn → sends SYN packets</li>
+<li>-p 80 → target port (HTTP)</li>
+<li>--spoof 172.16.1.1 → fake sender (router)</li>
+<li>--flood → send packets as fast as possible</li>
+<li>--data 120 → adds payload (sample 120) - heavier attack </li>
 
 ### Commands in Terminal 2 to detect SYN packets.
 
