@@ -37,7 +37,8 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Port scanning using Nmap
 - SYN flood testing using hping3
 - Network traffic analysis using Wireshark
-  📂 Folder: `Cybersecurity Labs`
+
+📂 Folder: [Cybersecurity Labs](./Cybersecurity%20Labs)
 
 ---
 
@@ -46,7 +47,8 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Deployed Node.js API on AWS EC2
 - Configured MySQL database on AWS RDS
 - Created Azure Virtual Machines via Portal and Cloud Shell
-  📂 Folder: `Cloud Projects`
+
+📂 Folder: [Cybersecurity Labs](./CybeCloudrsecurity%Projects)
 
 ---
 
