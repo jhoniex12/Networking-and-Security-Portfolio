@@ -48,7 +48,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Configured MySQL database on AWS RDS
 - Created Azure Virtual Machines via Portal and Cloud Shell
 
-📂 Folder: [Cybersecurity Labs](./CybeCloudrsecurity%Projects)
+📂 Folder: [Cloud Projects](./Cloud%20Projects)
 
 ---
 
