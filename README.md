@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am a Master of Information Technology student at CQUniversity, Melbourne. My major is in Networks and Information Security with a minor in Artificial Intelligence.
+Im a student of Master of Information Technology at CQUniversity, Melbourne. My major is in Networks and Information Security with a minor in Artificial Intelligence.
 
 I am currently building hands-on experience in cybersecurity, networking, and cloud technologies. I am aiming to start my career as a SOC Analyst (L1).
 
@@ -60,5 +60,6 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 
 ## Contact
 
+- LinkedIn: https://www.linkedin.com/in/jhoniex12
 - GitHub: https://github.com/jhoniex12
 - Location: Melbourne, Australia
