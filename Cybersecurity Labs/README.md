@@ -6,6 +6,8 @@ The node1 is the client and running the lynx web browser, using the command “l
 The node2 will capture traffic with tcpdump. Using the command “sudo tcpdump -i any -w web.pcap” so we can save it in a pcap file named web.
 Lastly node3 will be the web server running Apache to run the sample website.
 
+![DoS Attack](./Controls%20and%20Compliance%20Checklist/viewing grade.png)
+
 In node1(client) we accessed the sample website and login using the following credentials and access the grades table.
 • Username: 5012345678; Password: student
 • Username: s1234567; Password: student7
@@ -29,11 +31,11 @@ sudo hping3 --syn --data 120 -p 80 --flood ms2
 
 What it does:
 
-<li>  --syn → sends SYN packets</li>
-<li>  -p 80 → target port (HTTP)</li>
-<li>  --spoof 172.16.1.1 → fake sender (router)</li>
-<li>  --flood → send packets as fast as possible</li>
-<li>  --data 120 → adds payload (sample 120) - heavier attack </li>
+    <li> --syn → sends SYN packets</li>
+    <li> -p 80 → target port (HTTP)</li>
+    <li> --spoof 172.16.1.1 → fake sender (router)</li>
+    <li> --flood → send packets as fast as possible</li>
+    <li> --data 120 → adds payload (sample 120) - heavier attack </li>
 
 ### Commands in Terminal 2 to detect SYN packets.
 

@@ -1,10 +1,8 @@
 # Networking-and-Security-Portfolio
 
-# Networking and Security Portfolio
-
 ## About Me
 
-I am a Master of Information Technology student at CQUniversity, Melbourne, majoring in Networks and Information Security with a minor in AI.
+I am a Master of Information Technology student at CQUniversity, Melbourne. My major is in Networks and Information Security with a minor in Artificial Intelligence.
 
 I am currently building hands-on experience in cybersecurity, networking, and cloud technologies. I am aiming to start my career as a SOC Analyst (L1).
 
