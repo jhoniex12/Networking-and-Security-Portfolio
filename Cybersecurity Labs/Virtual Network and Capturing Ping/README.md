@@ -23,6 +23,7 @@ In my node2, using the command “nano demofile.txt” I made a txt file named d
 ## Copy the example text file from Linux node2 to your computer using FileZilla or WinSCP.
 
 Using filezilla, I connected to 127.0.0.1:2202 (node 2 port) and I found the demofile.txt that I created inside. Copied it to my Desktop folder and open it and the content is exactly what I did.
+
 ![Image](./images/demofile.png)
 
 Task 4
