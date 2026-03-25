@@ -26,10 +26,9 @@ Using filezilla, I connected to 127.0.0.1:2202 (node 2 port) and I found the dem
 
 ![Image](./images/demofile.png)
 
-Task 4
+## Using virtnet topology 5, ping from node1 to node3 and capture the traffic on node2
 
-1. Using virtnet topology 5, ping from node1 to node3 and capture the traffic on node2
-   ![Image](./images/virtnet.png)
+![Image](./images/virtnet.png)
 
-2. Text
-   ![Image](./images/node2dump.png)
+Using wireshark to analyze the ping captured.
+![Image](./images/node2dump.png)
