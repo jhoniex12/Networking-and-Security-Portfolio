@@ -27,7 +27,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Identified risks, vulnerabilities, and compliance gaps
 - Recommended security controls aligned with best practices
 
-📂 Folder: [Controls and Compliance Checklist](./Controls-and-Compliance-Checklist)
+📂 Folder: [Controls and Compliance Checklist](./Controls%20and%20Compliance%20Checklist)
 
 ---
 
