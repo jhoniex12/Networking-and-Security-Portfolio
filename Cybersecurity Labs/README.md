@@ -9,18 +9,24 @@ Lastly node3 will be the web server running Apache to run the sample website.
 ![DoS Attack](./viewinggrade.png)
 
 In node1(client) we accessed the sample website and login using the following credentials and access the grades table.
-• Username: 5012345678; Password: student
-• Username: s1234567; Password: student7
+
+<li>>Username: 5012345678; Password: student</li>
+<li>Username: s1234567; Password: student7</li>
+
 While doing this, node2 is capturing all the packets that is coming through node3(server side).
 
 First login
+![First login](./firstlogin.png)
 
 Second login
+![Second login](./secondlogin.png)
 We analyze the capture (web.pcap) using Wireshark, sorted the HTTP protocol and find the POST requests. Because the username and password are not encrypted and sent in plain text, we can see the bare-naked text.
 
 ## DoS Attack
 
 Using Kali, router and ms2 virtual machines I launched a TCP SYN Flood Dos attack on metasploitable 2 (ms2 - 172.16.1.35).
+
+![Image](./kaliattack.png)
 
 ### Commands Terminal 1 to attack port 80
 
@@ -43,8 +49,10 @@ What it does:
 sudo tcpdump -i eth1
 ```
 
+![Image](./ms2output.png)
+
 ### Commands in MS2 to see the output of the attack.
 
-```
+```bash
 Ms2$sleep 5 ; ss -a |grep :www
 ```
