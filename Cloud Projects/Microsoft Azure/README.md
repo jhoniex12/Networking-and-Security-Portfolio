@@ -52,3 +52,28 @@ Sample data insertion:
 Ten test customer records were inserted using INSERT INTO statements to populate sample data as same with what we did in the AWS sample.
 
 ![Image](./images/databaseimage.png)
+
+## Building the Backend API (Node.js on Azure App Service)
+
+The same Node.js Express API used in the AWS prototype was reused to ensure a fair comparison. The API included routes for:
+
+- Inserting new customer records
+
+![Image](./images/insert.png)
+
+- Retrieving all customer records
+
+![Image](./images/viewall.png)
+
+- Deleting a customer record by ID
+
+![Image](./images/delete.png)
+
+The website has been deployed using Azure Deployment Center, which can be accessed through https://techgear-ddbxdkf0a7hkdqa3.australiaeast-01.azurewebsites.net/ . It is connected to a GitHub repository containing the application source code. Once linked, Azure automatically:
+
+- Pulled the source code
+- Installed dependencies
+- Built the application
+- Started the Node.js service
+
+We didn’t perform any manual SSH access, package installation, or process management (such as nohup) because it is not required. This highlights Azure’s advantage in reducing deployment complexity. The backend API became publicly accessible through the App Service URL, with HTTPS enabled by default.
