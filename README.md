@@ -27,24 +27,26 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Identified risks, vulnerabilities, and compliance gaps
 - Recommended security controls aligned with best practices
 
-📂 Folder: `Controls and Compliance Checklist`
+📂 Folder: [Controls and Compliance Checklist](./Controls-and-Compliance-Checklist)
 
 ---
 
-## Cybersecurity Labs
+### 🔹 Cybersecurity Labs
 
 - Kali Linux penetration testing lab
 - Port scanning using Nmap
 - SYN flood testing using hping3
 - Network traffic analysis using Wireshark
+  📂 Folder: `Cybersecurity Labs`
 
 ---
 
-## Cloud Projects
+### 🔹 Cloud Projects
 
 - Deployed Node.js API on AWS EC2
 - Configured MySQL database on AWS RDS
 - Created Azure Virtual Machines via Portal and Cloud Shell
+  📂 Folder: `Cloud Projects`
 
 ---
 
