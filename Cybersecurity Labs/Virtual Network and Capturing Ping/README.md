@@ -31,4 +31,5 @@ Using filezilla, I connected to 127.0.0.1:2202 (node 2 port) and I found the dem
 ![Image](./images/virtnet.png)
 
 Using wireshark to analyze the ping captured.
+
 ![Image](./images/node2dump.png)
