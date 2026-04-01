@@ -1,2 +1,6 @@
 #Cloud Project disable
 Cloud-Projects/
+
+
+#ignore this file
+.gitignore
