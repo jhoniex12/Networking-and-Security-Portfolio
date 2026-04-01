@@ -12,6 +12,8 @@ The first thing I did is to print the working directory to keep track with where
 pwd
 ```
 
+![Image](./images/researcher2-ls-la.png)
+
 Currently we are inside the researcher’s team folder which is named as “researcher2/”, then we displayed the list of files and directories inside this folder including the hidden ones and their authorization status.
 
 ```bash
@@ -24,6 +26,8 @@ ls -la
 
 Then we access the folder “projects” and committed the same commands to review all the file permissions inside the directory.
 
+![Image](./images/projects-ls-la.png)
+
 ```bash
 cd projects
 ls -la
@@ -34,6 +38,8 @@ Based on the result of this command, we can now see the list of all files and di
 ## Describe the permissions string
 
 In this example, the file permissions for project_t.txt are -rw-rw-r--. Since the first character is a hyphen (-), this indicates that project_t.txt is a file, not a directory. The second, fifth, and eighth characters are all r, which indicates that user, group, and other all have read permissions. The third and sixth characters are w, which indicates that only the user and group have write permissions. No one has execute permissions for project_t.txt.
+
+![Image](./images/projects-ls-la.png)
 
 Each file/directory has a permission string like:
 
@@ -66,6 +72,8 @@ The organization determined that Others shouldn’t have write permission with t
 chmod o-w project_k.txt
 ```
 
+![Image](./images/projeck-o-w.png)
+
 ## Change file permissions on a hidden file
 
 The research team has already achieved the project_x.txt and don’t want anyone aside from user and others to access it. The following code demonstrates how I used Linux commands to change the permissions:
@@ -74,6 +82,8 @@ The research team has already achieved the project_x.txt and don’t want anyone
 chmod u-w,g-w,g+r .project_x.txt
 ```
 
+![Image](./images/projectx.png)
+
 ## Change directory permissions
 
 The organization required that “drafts” directory execute permission should only be granted to the user. So, in this case I used the following command to remove execute permission to group.
@@ -81,6 +91,8 @@ The organization required that “drafts” directory execute permission should 
 ```bash
 chmod g-x drafts
 ```
+
+![Image](./images/drafts.png)
 
 ## Summary
 
