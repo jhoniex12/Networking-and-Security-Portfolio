@@ -72,7 +72,7 @@ The organization determined that Others shouldn’t have write permission with t
 chmod o-w project_k.txt
 ```
 
-![Image](./images/projeck-o-w.png)
+![Image](./images/projectk-o-w.png)
 
 ## Change file permissions on a hidden file
 
