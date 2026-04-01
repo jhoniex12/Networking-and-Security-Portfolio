@@ -8,6 +8,10 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 
 ---
 
+## Certificates
+
+[Foundations of Cybersecurity](https://coursera.org/share/6ab971bd3921cacb70017be8e30d4056)
+
 ## Skills
 
 - Networking: TCP/IP, DNS, HTTP, Routing, Switching
@@ -21,13 +25,12 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 
 ## Projects
 
-### 🔹 Controls and Compliance Checklist
+### 🔹 Google Cybersecurity Certificate Portfolio
 
 - Conducted an internal IT audit based on a simulated business (Botium Toys)
-- Identified risks, vulnerabilities, and compliance gaps
-- Recommended security controls aligned with best practices
+- Use Linux commands to manage file permissions
 
-📂 Folder: [Controls and Compliance Checklist](./Controls%20and%20Compliance%20Checklist)
+📂 Folder: [Google-Cybersecurity](./Google%20Cybersecurity)
 
 ---
 
@@ -38,7 +41,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - SYN flood testing using hping3
 - Network traffic analysis using Wireshark
 
-📂 Folder: [Cybersecurity Labs](./Cybersecurity%20Labs)
+📂 Folder: [Cybersecurity-Labs](./Cybersecurity%20Labs)
 
 ---
 
@@ -48,7 +51,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Configured MySQL database on AWS RDS
 - Created Azure Virtual Machines via Portal and Cloud Shell
 
-📂 Folder: [Cloud Projects](./Cloud%20Projects)
+📂 Folder: [Cloud-Projects](./Cloud%20Projects)
 
 ---
 
