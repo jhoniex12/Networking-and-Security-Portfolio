@@ -30,7 +30,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Conducted an internal IT audit based on a simulated business (Botium Toys)
 - Use Linux commands to manage file permissions
 
-📂 Folder: [Google-Cybersecurity](./Google%20Cybersecurity)
+📂 Folder: [Google-Cybersecurity](./Google-Cybersecurity)
 
 ---
 
@@ -41,7 +41,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - SYN flood testing using hping3
 - Network traffic analysis using Wireshark
 
-📂 Folder: [Cybersecurity-Labs](./Cybersecurity%20Labs)
+📂 Folder: [Cybersecurity-Labs](./Cybersecurity-Labs)
 
 ---
 
@@ -51,7 +51,7 @@ I am currently building hands-on experience in cybersecurity, networking, and cl
 - Configured MySQL database on AWS RDS
 - Created Azure Virtual Machines via Portal and Cloud Shell
 
-📂 Folder: [Cloud-Projects](./Cloud%20Projects)
+📂 Folder: [Cloud-Projects](./Cloud-Projects)
 
 ---
 
