@@ -4,10 +4,6 @@
 
 As you continue through this course, you may use this template to record your findings after completing an activity or to take notes on what you've learned about a specific tool or concept. You can also use this chart as a way to practice applying the NIST framework to different situations you encounter.
 
-# Incident Response Analysis
-
-# Incident Response Analysis
-
 | Section      | Details                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Summary**  | The organization recently experienced a DoS attack, which compromised the internal network for two hours until it was resolved. During the attack, the organization’s network services suddenly stopped responding due to an incoming flood of ICMP packets.                                                                                                                                                                      |
@@ -16,7 +12,3 @@ As you continue through this course, you may use this template to record your fi
 | **Detect**   | The company’s cybersecurity team investigated the security event using logs and tools like `tcpdump`. They found that a malicious actor had sent a flood of ICMP pings into the company’s network through an unconfigured firewall. This vulnerability allowed the attacker to overwhelm the network through a denial of service (DoS) attack.                                                                                    |
 | **Respond**  | To effectively respond to potential future incidents, the organization should implement continuous monitoring of network traffic using SIEM tools. These tools simplify logs and provide real-time alerts for suspicious activities such as ICMP, TCP, or UDP floods, or repeated requests from non-trusted IP addresses. Automated alerting and monitoring improve detection speed and response capability.                      |
 | **Recover**  | To ensure full recovery, the organization should prioritize restoring critical systems such as internal network access, servers, and essential applications. Important information includes attack details and correct firewall/system configurations. A post-incident review should be conducted and documented to improve future responses.                                                                                     |
-
-git add .
-git commit -m "update"
-git push
