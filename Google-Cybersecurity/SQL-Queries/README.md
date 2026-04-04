@@ -56,16 +56,52 @@ SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';
 
 ## Retrieve employees in Marketing
 
-[Add content here.]
+The Problem :
+
+Your team wants to perform security updates on specific employee machines in the Marketing department. You’re responsible for getting information on these employee machines and will need to query the employees table. Use filters in SQL to create a query that identifies all employees in the Marketing department for all offices in the East building.
+
+(The department of the employee is found in the department column, which contains values that include Marketing. The office is found in the office column. Some examples of values in this column are East-170, East-320, and North-434. You’ll need to use the LIKE keyword with % to filter for the East building.)
+
+Using the SQL query:
+
+```bash
+SELECT * FROM employees WHERE department = 'Marketing' AND office LIKE 'East%';
+```
+
+![Image](./images/employees_east.png)
 
 ## Retrieve employees in Finance or Sales
 
-[Add content here.]
+The Problem :
+
+The team now needs to perform a different security update on machines for employees in the Sales and Finance departments. Use filters in SQL to create a query that identifies all employees in the Sales or Finance departments. (The department of the employee is found in the department column, which contains values that include Sales and Finance.)
+
+Using the SQL query:
+
+```bash
+SELECT * FROM employees WHERE department = 'Sales' OR department = 'Finance';
+```
+
+![Image](./images/employees_sales_finance.png)
 
 ## Retrieve all employees not in IT
 
-[Add content here.]
+The Problem :
+
+The team needs to make one more update to employee machines. The employees who are in the Information Technology department already had this update, but employees in all other departments need it. Use filters in SQL to create a query which identifies all employees not in the IT department. (The department of the employee is found in the department column, which contains values that include Information Technology.)
+
+Using the SQL query:
+
+```bash
+SELECT * FROM employees WHERE NOT department = 'Information Technology';
+```
+
+![Image](./images/employees_information_technology.png)
 
 ## Summary
 
-[Add content here.]
+In this project, I applied SQL filtering techniques that I've learned during the 'Tools of the Trade: Linux and SQL' course in Google Cybersecurity to investigate potential security issues within an organization’s system. By querying the log_in_attempts and employees tables, I was able to identify suspicious activities such as failed logins after business hours, login attempts on specific dates, and access attempts originating outside of Mexico.
+
+I also used SQL filters to retrieve employee data based on department and office location to support security updates on specific machines. This included identifying employees in Marketing, Finance, Sales, and those not part of the IT department.
+
+To sum up everything, this activity demonstrates my ability to use SQL queries with conditions such as WHERE, AND, OR, NOT, and LIKE to analyze data, detect anomalies, and support cybersecurity operations.
