@@ -14,9 +14,9 @@ The table format for our sample database can be found here : [Table Format](./Ta
 
 ## Retrieve after hours failed login attempts
 
-Problem :
+The Problem :
 
-You recently discovered a potential security incident that occurred after business hours. To investigate this, you need to query the log_in_attempts table and review after hours login activity. Use filters in SQL to create a query that identifies all failed login attempts that occurred after 18:00. (The time of the login attempt is found in the login_time column. The success column contains a value of 0 when a login attempt failed; you can use either a value of 0 or FALSE in your query to identify failed login attempts.)
+Having recently discovered a potential security incident that occurred after business hours. To investigate this, we need to query the log_in_attempts table and review after hours login activity. Use filters in SQL to create a query that identifies all failed login attempts that occurred after 18:00. (The time of the login attempt is found in the login_time column. The success column contains a value of 0 when a login attempt failed; you can use either a value of 0 or FALSE in your query to identify failed login attempts.)
 
 Using the SQL query:
 
@@ -28,11 +28,31 @@ SELECT * FROM log_in_attempts WHERE login_time > '18:00:00' and success = 0;
 
 ## Retrieve login attempts on specific dates
 
-[Add content here.]
+The Problem :
+
+A suspicious event have been found, it occurred on 2022-05-09. To investigate this event, we will review all login attempts which occurred on this day and the day before. Use filters in SQL to create a query that identifies all login attempts that occurred on 2022-05-09 or 2022-05-08. (The date of the login attempt is found in the login_date column.)
+
+Using the SQL query:
+
+```bash
+SELECT * FROM log_in_attempts WHERE login_date = '2022-05-09' or '2022-05-08';
+```
+
+![Image](./images/login_date05.png)
 
 ## Retrieve login attempts outside of Mexico
 
-[Add content here.]
+The Problem :
+
+There’s been suspicious activity with login attempts, but the team has determined that this activity didn't originate in Mexico. Now, you need to investigate login attempts that occurred outside of Mexico. Use filters in SQL to create a query that identifies all login attempts that occurred outside of Mexico. (When referring to Mexico, the country column contains values of both MEX and MEXICO, and you need to use the LIKE keyword with % to make sure your query reflects this.)
+
+Using the SQL query:
+
+```bash
+SELECT * FROM log_in_attempts WHERE NOT country LIKE 'MEX%';
+```
+
+![Image](./images/country_mexico.png)
 
 ## Retrieve employees in Marketing
 
