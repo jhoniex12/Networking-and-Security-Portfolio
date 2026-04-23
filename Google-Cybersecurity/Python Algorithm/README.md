@@ -12,23 +12,35 @@ Using Jupyter notebook, we opened the allow_list.txt file with python code open 
 
 We read the file contents by printing it in file.read() to display all contents.
 
+![Image](./images/allow_list.png)
+
 ## Convert the string into a list
 
 To normalize data, we will convert the contents which is currently in strings into a list format. We declared a variable called ip_addresses to store the list of ip that we converted, we will use the .split() method to convert file_content strings into a list.
+
+![Image](./images/convert_list.png)
 
 ## Iterate through the remove list
 
 We declared a new variable called remove_list to store the list of IP address that we will remove on the ip_addresses list. We printed each ip address by iterating using for loop with each element in the list.
 
+![Image](./images/remove_list.png)
+
 ## Remove IP addresses that are on the remove list
 
 This code uses nested loops to compare every IP address in remove_list with each IP in ip_addresses. If a match is found, that IP address is removed from ip_addresses. After all comparisons are completed, the updated list is printed.
+
+![Image](./images/remove_ip.png)
 
 ## Update the file with the revised list of IP addresses
 
 This code updates the allow list file with the revised IP addresses. The list items are combined into one string separated by spaces using " ".join(ip_addresses), then the file is opened in write mode ("w") and the updated data is saved to the file.
 
+![Image](./images/updated.png)
+
 Finally, this code will re-open the allow_list.txt to check if the ip listed in remove_list has been successfully removed.
+
+![Image](./images/final.png)
 
 ## Summary
 
