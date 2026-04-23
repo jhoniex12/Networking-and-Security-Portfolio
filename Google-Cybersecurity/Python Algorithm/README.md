@@ -38,7 +38,7 @@ This code updates the allow list file with the revised IP addresses. The list it
 
 ![Image](./images/updated.png)
 
-Finally, this code will re-open the allow_list.txt to check if the ip listed in remove_list has been successfully removed.
+Finally, this code will re-open the [allow_list.txt](./allow_list.txt) to check if the ip listed in remove_list has been successfully removed.
 
 ![Image](./images/final.png)
 
