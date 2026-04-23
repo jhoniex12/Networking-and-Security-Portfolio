@@ -6,7 +6,7 @@ In this project we are assuming the position as a security professional working 
 
 Using Python programming language, we will create an algorithm to check whether allow list contains any IP addresses identified on the remove list. If so, we should remove those IP addresses from the file containing the allow list.
 Open the file that contains the allow list
-Using Jupyter notebook, we opened the allow_list.txt file with python code open with first parameter as the txt file name and second parameter as the read type. We stored it in the variable file.
+Using Jupyter notebook, we opened the [allow_list.txt](./allow_list.txt) file with python code open with first parameter as the text file name and second parameter as the read type. We stored it in the variable file.
 
 ## Read the file contents
 
